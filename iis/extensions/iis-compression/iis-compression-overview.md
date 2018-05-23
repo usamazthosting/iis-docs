@@ -32,7 +32,7 @@ IIS `StaticCompressionModule` and `DynamicCompressionModule`:
 - Load the registered compression scheme providers into worker process at runtime.
 - Leverage them to perform compression on static files and dynamically-generated content, respectively.
 
-## Why use IIS Compression?
+## Why use IIS Compression
 
 IIS ships a default compression scheme provider *gzip.dll*:
 - That supports both **Gzip** and **Deflate** compression
